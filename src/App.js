@@ -21,7 +21,7 @@ function reducer(state, action) {
     case "dataFailed":
       return {
         ...state,
-        status: "error,",
+        status: "error",
       };
     default:
       throw new Error("Action unkonw");
